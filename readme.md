@@ -1,7 +1,6 @@
 # server
-
-1. 使用爬虫对网站进行爬取，获取网站的所有单元链接
-2. 分析单元链接，获取单元的标题、内容、和课程链接
-3. 对话请求依据请求的课程内容，从本地缓存和网站中获取链接(网站有反爬机制，需要注意)
-4. 依据课程内容
-5. 数据根据用户输入的内容进行匹配，匹配到后依据相应的内容
+	1.	Use a web crawler to scrape the website and obtain all unit links.
+	2.	Analyze the unit links to extract the unit title, content, and course links.
+	3.	Process dialogue requests based on the requested course content, retrieving links from both local cache and the website (considering the website has anti-crawling mechanisms).
+	4.	Retrieve relevant content based on the course material.
+	5.	Match data according to user input and provide corresponding content upon a successful match.
